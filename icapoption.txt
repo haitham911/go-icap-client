@@ -1,0 +1,10 @@
+ICAP/1.0 200 OK
+Methods: RESPMOD, REQMOD
+Service: C-ICAP/0.5.7 server - Glasswall Rebuild service
+ISTag: CI0001-2.1.1
+Transfer-Preview: *
+Options-TTL: 3600
+Date: Thu, 25 Feb 2021 13:58:01 GMT
+Preview: 1024
+Allow: 204
+Encapsulated: null-body=0

@@ -1,0 +1,12 @@
+title = "ICAPEG configuration file"
+
+[app]
+scheme = "icap" #icaps for TLS
+host ="127.0.0.1"  #icape server ip / url  127.0.0.1  34.242.219.224
+port = 1344
+icap_resource ="respmod"  # service  "respmod" gw_rebuild
+checkfile = false # check if icap response have rebuild file
+bypass_extensions = ["*"]
+process_extensions = ["txt" , "pdf" , "dmg" , "exe" , "com", "rar" , "jpg"] # * = everything except the ones in bypass, unknown = system couldn't find out the type of the file
+preview_bytes = "4096" #byte
+timeout =30 #second
